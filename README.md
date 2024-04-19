@@ -27,11 +27,14 @@ The **Source** connection string should be updated with the connection details t
 - **Database Creation**: if the target database specified does not exist, it will be automatically created.
 - **Containers Creation**: similarly, if the target containers do not exist in the target database, they will be created during the cloning process.
 
-## Todo
+## TODO
 
 - **Configurable Parallelism**: allow configuration for the number of containers that can be cloned in parallel (currently set to 3 containers).
 - **Configurable Documents Batch Size**: configure the batch size for document cloning (currently set at 500 documents per batch).
 - **Multi-Account Support**: cloning across multiple Cosmos DB accounts.
+- **Errors handling**: add errors handling.
+
+Contributors are welcome.
 
 ## License
 
