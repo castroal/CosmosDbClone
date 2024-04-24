@@ -4,6 +4,10 @@ CosmosDbClone is a .NET tool designed to simplify the process of cloning Azure C
 
 With this tool, you can replicate your databases, collections, and documents without the hassle of manual copying or complex scripts.
 
+<p align="center">
+  <img src="/screenshot.png" alt="screenshot">
+</p>
+
 ## Configuration
 
 CosmosDbClone is configured through the `appsettings.json` file, allowing you to specify the source and target database names, as well as the connection string to your source Cosmos DB:
